@@ -1,0 +1,11 @@
+[package]
+name = "advanced_sphere"
+version = "0.1.0"
+authors = ["bjoern <bjoern.quentin@mobile-j.de>"]
+edition = "2018"
+
+build = "build.rs"
+
+[dependencies]
+lowstd = {path = "./lib-minstd"}
+

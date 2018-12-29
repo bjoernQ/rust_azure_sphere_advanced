@@ -1,0 +1,11 @@
+[[package]]
+name = "advanced_sphere"
+version = "0.1.0"
+dependencies = [
+ "lowstd 0.1.0",
+]
+
+[[package]]
+name = "lowstd"
+version = "0.1.0"
+

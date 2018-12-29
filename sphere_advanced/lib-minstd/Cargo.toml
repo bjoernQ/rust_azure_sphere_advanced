@@ -1,0 +1,14 @@
+[package]
+name = "lowstd"
+version = "0.1.0"
+authors = ["bjoern <bjoern.quentin@mobile-j.de>"]
+edition = "2018"
+description = "A minimal std replacement for Azure Sphere inspired by Steed"
+
+[lib]
+name = "lowstd"
+path = "src/lib.rs"
+test = false
+bench = false
+
+[dependencies]

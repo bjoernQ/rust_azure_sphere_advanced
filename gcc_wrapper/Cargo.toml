@@ -1,0 +1,7 @@
+[package]
+name = "gcc_wrapper"
+version = "0.1.0"
+authors = ["bjoern <bjoern.quentin@mobile-j.de>"]
+edition = "2018"
+
+[dependencies]
