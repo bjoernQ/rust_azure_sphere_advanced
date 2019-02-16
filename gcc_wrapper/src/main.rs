@@ -59,11 +59,11 @@ fn main() {
         idx = idx +1;
     };
 
-    args_to_gcc.push("--sysroot=C:\\Program Files (x86)\\Microsoft Azure Sphere SDK\\Sysroots\\1+Beta1811".to_string());
+    args_to_gcc.push("--sysroot=C:\\Program Files (x86)\\Microsoft Azure Sphere SDK\\Sysroots\\1+Beta1902".to_string());
     args_to_gcc.push("-Wl,--no-undefined,--gc-sections".to_string());
     args_to_gcc.push("-nodefaultlibs".to_string());
     args_to_gcc.push("-B".to_string());
-    args_to_gcc.push("C:\\Program Files (x86)\\Microsoft Azure Sphere SDK\\Sysroots\\1+Beta1811\\tools\\gcc".to_string());
+    args_to_gcc.push("C:\\Program Files (x86)\\Microsoft Azure Sphere SDK\\Sysroots\\1+Beta1902\\tools\\gcc".to_string());
     args_to_gcc.push("-march=armv7ve".to_string());
     args_to_gcc.push("-mcpu=cortex-a7".to_string());
     args_to_gcc.push("-mthumb".to_string());
@@ -77,7 +77,7 @@ fn main() {
 
     eprintln!("args to gcc {:?}", args_to_gcc);
 
-    let output =  Command::new("C:\\Program Files (x86)\\Microsoft Azure Sphere SDK\\Sysroots\\1+Beta1811\\tools\\gcc\\gcc.exe")
+    let output =  Command::new("C:\\Program Files (x86)\\Microsoft Azure Sphere SDK\\Sysroots\\1+Beta1902\\tools\\gcc\\gcc.exe")
             .args(&args_to_gcc)
             .output()
             .expect("failed to execute process");

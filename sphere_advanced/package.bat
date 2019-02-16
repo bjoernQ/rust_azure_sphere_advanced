@@ -1,7 +1,7 @@
 @echo off
 setlocal
 set AZSPHERETOOLS=c:\Program Files (x86)\Microsoft Azure Sphere SDK\Tools\
-set SYSROOT=C:\Program Files (x86)\Microsoft Azure Sphere SDK\Sysroots\1+Beta1811
+set SYSROOT=C:\Program Files (x86)\Microsoft Azure Sphere SDK\Sysroots\1+Beta1902
 set CCPATH=%SYSROOT%\tools\gcc
 set PATH=%PATH%;%AZSPHERETOOLS%;%CCPATH%
 

@@ -49,4 +49,4 @@ Rust is completely new to me so this might be not the ideal and most idiomatic w
 
 The path to the Azure Sphere SDK is hardcoded and it' assumed to be installed to the default location.
 
-This proof-of-concept uses the Sphere Beta1811 SDK since it creates a server port.
+This proof-of-concept uses the Sphere Beta1902 SDK since it creates a server port.

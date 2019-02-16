@@ -1,7 +1,7 @@
 @echo off
 setlocal
 set AZSPHERETOOLS=c:\Program Files (x86)\Microsoft Azure Sphere SDK\Tools\
-set SYSROOT=C:\Program Files (x86)\Microsoft Azure Sphere SDK\Sysroots\1+Beta1811
+set SYSROOT=C:\Program Files (x86)\Microsoft Azure Sphere SDK\Sysroots\1+Beta1902
 set PATH=%PATH%;%AZSPHERETOOLS%
 
 azsphere device sideload stop -i dfc29b2a-1ac1-4328-a734-00770b9789b9
